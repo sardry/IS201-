@@ -1,0 +1,75 @@
+body {
+    background-color: lightyellow;
+}
+
+/* Define styles for font color */
+.text-primary {
+    color: black;
+}
+
+.text-secondary {
+    color: gray;
+}
+
+/* Define styles for font family */
+.font-sans-serif {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.font-serif {
+    font-family: "Times New Roman", Times, serif;
+}
+
+/* Define styles for anchors */
+.back-to-top, .to-index {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: white;
+    color: lightpink;
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+.to-index {
+    right: 20px;
+    bottom: 60px;
+}
+
+/* Define styles for images */
+.content img {
+    float: right;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+/* Define styles for div tags */
+.div-one {
+    background-color: #FFB6C1;
+    padding: 20px;
+    border: 2px solid #FF69B4;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+}
+
+.div-two {
+    background-color: #E6E6FA;
+    padding: 20px;
+    border: 2px solid #4B0082;
+    position: absolute;
+    top: 150px;
+    left: 50px;
+}
+
+.div-three {
+    background-color: #D8BFD8;
+    padding: 20px;
+    border: 2px solid #4B0082;
+    position: absolute;
+    top: 250px;
+    left: 50px;
+}
